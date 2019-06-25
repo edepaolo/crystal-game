@@ -1,0 +1,101 @@
+body {
+    background-image: url(../images/papyrus-dark.png);
+}
+
+#title { 
+    color: white;
+    font-size: 40px;
+    background-color: orange;
+    margin: 10px auto 0 auto;
+    height: 80px;
+    width: 33%;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 30px;
+
+}
+
+#instructions {
+    background-color: rgb(26, 40, 231);
+    color: white;
+    margin: 10px auto 0 auto;
+    width: 33%;
+    padding: 10px;
+    border: 4px solid orange;
+
+}
+
+#goalScore {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    font-size: 32px;
+    background-color: black;
+    float: left;
+    border: 4px solid white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#winloss {
+    float: right;
+    display: inline-block;
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    font-size: 32px;
+    border: 4px solid white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 50px; 
+}
+
+#crystalContainer {
+    float: left;
+    margin: 10 auto 0 auto;
+    width: 33%;
+}
+
+#redCrystal {
+    float: left;
+    margin-left: 200px;
+    padding: 20px 10px 10px 10px;
+}
+#blueCrystal {
+    float: left;
+    padding: 20px 10px 10px 10px;
+}
+#yellowCrystal {
+    float: left;
+    padding: 20px 10px 10px 10px;
+}
+#greenCrystal {
+    float: left;
+    padding: 20px 10px 10px 10px;
+}
+
+#totalScore {
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    font-size: 32px;
+    border: 4px solid white;
+    padding: 10px;
+    position: relative; 
+    margin: 100px auto 5px auto;
+    width: 25%;
+
+}
+
+#totalScoreNum {
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    font-size: 32px;
+    border: 4px solid white;
+    padding: 10px;
+    margin: 0 auto 0 auto;
+    width: 25%;
+    text-align: center;
+}
+
